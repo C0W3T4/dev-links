@@ -6,6 +6,6 @@ function toggleTheme() {
   const img = document.querySelector('#profile img');
 
   html.classList.contains('light')
-    ? img.setAttribute('src', '../assets/images/avatar-light.svg')
-    : img.setAttribute('src', '../assets/images/avatar.svg');
+    ? img.setAttribute('src', './assets/images/avatar-light.svg')
+    : img.setAttribute('src', './assets/images/avatar.svg');
 }
