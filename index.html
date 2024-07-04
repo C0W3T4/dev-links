@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="David Lopes" />
+    <meta
+      name="description"
+      content="Link aggregator to use as an online business card"
+    />
+
+    <title>Dev Links</title>
+
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles/globals.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="assets/images/avatar.svg" alt="Avatar coffee cup" />
+        <p>@C0W3T4</p>
+      </div>
+      <div id="switch" onclick="toggleTheme()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/C0W3T4"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View my portfolio</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://codeandcoffee-mydevjourney.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Visit my website</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a
+          href="https://github.com/C0W3T4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/david-lopes-b5a2331b4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Made with ❤ by
+        <a
+          href="https://codeandcoffee-mydevjourney.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          >David Lopes</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="scripts/theme.js"></script>
+  </body>
+</html>
